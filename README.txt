@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-1.this is assignments
+1.this is assignments in master
 2.
 3.
 =======
