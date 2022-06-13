@@ -3,7 +3,8 @@ import AdminPage from './AdminPage';
 import Footer from './Footer';
 import Header from './Header';
 
-function Administrator() {
+function Administrator() 
+{
     return (
         <div className='container-fluid'>
             <Header />
