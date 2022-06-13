@@ -7,3 +7,4 @@ this is assignments
 this is css 
 css-assignment
 >>>>>>> css-Assignment
+this is js 
