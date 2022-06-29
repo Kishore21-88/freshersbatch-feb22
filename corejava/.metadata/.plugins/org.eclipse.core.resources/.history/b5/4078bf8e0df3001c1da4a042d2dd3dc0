@@ -1,0 +1,41 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Product {
+	int id;
+	String Name;
+
+	public Product(int id, String name) {
+		super();
+		this.id = id;
+		Name = name;
+	}
+
+	public static void main(String[] args) {
+		ArrayList<Product> al = new ArrayList<Product>();
+		al.add(=new Product(1,"kiki"));
+		al.add(new Product(2,"kiki"));
+		al.add(new Product(3,"kiki"));
+		al.add(new Product(4,"kiki"));
+		al.add(new Product(5,"kiki"));
+		al.add(new Product(6,"kiki"));
+		al.add(new Product(7,"kiki"));
+		al.add(new Product(8,"kiki"));
+		al.add(new Product(9,"kiki"));
+		al.add(new Product(10,"kiki"));
+	
+		
+		for(int i=0;i<al.size();i++)
+			System.out.println(al.get(i));
+		
+
+	}
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", Name=" + Name + "]";
+	}
+	
+
+}

@@ -1,0 +1,98 @@
+
+„
+java:S6204À"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(€Ø·ŞÿÿÿÿÿHí"RMAJORZ
+CODE_SMELL
+e	java:S106É"9Replace this use of System.out or System.err by a logger.(‡¤Ÿ”H‚#RMAJORZ
+CODE_SMELL
+l	java:S106ã"9Replace this use of System.out or System.err by a logger.(Î›Ô«8³ĞÃŸš0H#RMAJORZ
+CODE_SMELL
+j	java:S106‚"9Replace this use of System.out or System.err by a logger.( åÂÜÿÿÿÿÿH#RMAJORZ
+CODE_SMELL
+„
+java:S6204Ì"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÆÉì¥ÿÿÿÿÿH„#RMAJORZ
+CODE_SMELL
+‹
+java:S2293ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤÷Ê‘úÿÿÿÿHô"RMINORZ
+CODE_SMELL
+e	java:S106Î"9Replace this use of System.out or System.err by a logger.(š”éúHŒ#RMAJORZ
+CODE_SMELL
+l	java:S106Ö"9Replace this use of System.out or System.err by a logger.(“êÅƒ8øåÄŸš0Hœ#RMAJORZ
+CODE_SMELL
+j	java:S106†"9Replace this use of System.out or System.err by a logger.(³‹ÂõıÿÿÿÿHò"RMAJORZ
+CODE_SMELL
+„
+java:S6204€"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(´Ó¼ŸùÿÿÿÿH™#RMAJORZ
+CODE_SMELL
+j	java:S106œ"9Replace this use of System.out or System.err by a logger.(ŠŠ“áûÿÿÿÿHì"RMAJORZ
+CODE_SMELL
+e	java:S106Á"9Replace this use of System.out or System.err by a logger.(ó­¿ãH÷"RMAJORZ
+CODE_SMELL
+e	java:S106È"9Replace this use of System.out or System.err by a logger.(ªÎûİHø"RMAJORZ
+CODE_SMELL
+e	java:S106×"9Replace this use of System.out or System.err by a logger.(øÓŸˆHî"RMAJORZ
+CODE_SMELL
+l	java:S106”"9Replace this use of System.out or System.err by a logger.(ÿİŒù8¬ùŸ š0Hñ"RMAJORZ
+CODE_SMELL
+„
+java:S6204›"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(’ÄİüÿÿÿÿH#RMAJORZ
+CODE_SMELL
+k	java:S106Ş"9Replace this use of System.out or System.err by a logger.(æßõ&8îÎĞŸš0Hé"RMAJORZ
+CODE_SMELL
+e	java:S106ä"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒHŠ#RMAJORZ
+CODE_SMELL
+|
+java:S1192é"GDefine a constant instead of duplicating this literal "B'lore" 3 times.(Äñ®üÿÿÿÿHû"RCRITICALZ
+CODE_SMELL
+e	java:S106"9Replace this use of System.out or System.err by a logger.(œ’éÅHö"RMAJORZ
+CODE_SMELL
+e	java:S106‡"9Replace this use of System.out or System.err by a logger.(Ø¥ÒïH†#RMAJORZ
+CODE_SMELL
+l	java:S106ß"9Replace this use of System.out or System.err by a logger.(Ï•Çü8ÀÅÉŸš0H#RMAJORZ
+CODE_SMELL
+k	java:S106¢"9Replace this use of System.out or System.err by a logger.(„‘M8ÀÅÉŸš0Hú"RMAJORZ
+CODE_SMELL
+
+java:S6204…"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(şŒŠ”Hğ"RMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(Ã·ÃùÿÿÿÿHƒ#RMAJORZ
+CODE_SMELL
+q	java:S106˜"9Replace this use of System.out or System.err by a logger.(ã«Ïüÿÿÿÿ8îÎĞŸš0H‹#RMAJORZ
+CODE_SMELL
+‹
+java:S2293è"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ó‡úÿÿÿÿH#RMINORZ
+CODE_SMELL
+e	java:S106Í"9Replace this use of System.out or System.err by a logger.(š¬ËñHï"RMAJORZ
+CODE_SMELL
+j	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(õÛÑ§ÿÿÿÿÿH‰#RMAJORZ
+CODE_SMELL
+…
+java:S2293¶"YReplace the type specification in this constructor call with the diamond operator ("<>").(öÃûcH“#RMINORZ
+CODE_SMELL
+†
+java:S2293Ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü¨İÛHš#RMINORZ
+CODE_SMELL
+„
+java:S6204Œ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ü¹Û—ûÿÿÿÿHó"RMAJORZ
+CODE_SMELL
+q	java:S106Ã"9Replace this use of System.out or System.err by a logger.(¿Øøôùÿÿÿÿ8ûüÀŸš0H…#RMAJORZ
+CODE_SMELL
+n
+java:S1612Œ"<Replace this lambda with method reference 'Trader::getName'.(Ü¹Û—ûÿÿÿÿHê"RMINORZ
+CODE_SMELL
+~
+java:S6204‰"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(³¦‰&H’#RMAJORZ
+CODE_SMELL
+e	java:S106Š"9Replace this use of System.out or System.err by a logger.(²á«ÚHù"RMAJORZ
+CODE_SMELL
+i
+java:S1612Ç"<Replace this lambda with method reference 'Fruit::getColor'.(“Éº¸Hÿ"RMINORZ
+CODE_SMELL
+
+java:S6204Ç"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(“Éº¸H#RMAJORZ
+CODE_SMELL
+v
+java:S1192·"FDefine a constant instead of duplicating this literal "apple" 3 times.(½î¢ÊH•#RCRITICALZ
+CODE_SMELL
+t
+java:S1612›"BReplace this lambda with method reference 'Transaction::getValue'.(’ÄİüÿÿÿÿH‡#RMINORZ
+CODE_SMELL

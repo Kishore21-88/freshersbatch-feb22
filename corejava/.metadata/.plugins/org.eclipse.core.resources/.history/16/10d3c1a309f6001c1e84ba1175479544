@@ -1,0 +1,10 @@
+package corejava.assignment.lamda;
+
+public class ThreadNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

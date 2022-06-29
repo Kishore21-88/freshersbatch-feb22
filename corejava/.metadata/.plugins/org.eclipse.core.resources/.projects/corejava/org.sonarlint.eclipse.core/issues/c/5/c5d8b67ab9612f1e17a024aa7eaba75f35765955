@@ -1,0 +1,13 @@
+
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHÑ"RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(µüÀ¨ýÿÿÿÿHÐ"RMAJORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(ï„Ú›HÚ"RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿHÓ"RMAJORZ
+CODE_SMELL
+[
+java:S1197"*Move the array designators [] to the type.(¹òÆ‹þÿÿÿÿHÕ"RMINORZ
+CODE_SMELL

@@ -1,0 +1,19 @@
+package corejava.assignment.lamda;
+
+import java.util.HashMap;
+
+public class MapToString {
+
+	public static void main(String[] args) {
+		StringBuilder s= new StringBuilder();
+		HashMap<Integer,String> hm=new HashMap<Integer, String>();
+		hm.put(1, "Kishore");
+		hm.put(2, "Kishore");
+		hm.put(3, "Kishore");
+		hm.put(4, "Kishore");
+		hm.entrySet().forEach(k->s.append(k));
+		System.out.println(s);
+		
+	}
+
+}

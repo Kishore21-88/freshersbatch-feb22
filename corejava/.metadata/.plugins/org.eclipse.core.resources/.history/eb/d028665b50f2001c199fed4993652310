@@ -1,0 +1,33 @@
+package intermediate;
+ class Parent{
+	int a=10;
+	int b=0;
+	private Parent() {
+		
+		System.out.println("hello..");
+	}
+	public void go() {
+		System.out.println("hi..");
+	}
+}
+
+public class Singletone  
+{
+	
+//	Singletone() {
+//	super();
+//	}
+
+	public static void main(String[] args) {
+		
+		Parent p1=new Singletone();
+		Parent p2=new Singletone();
+		Parent p3=new Singletone();
+		if(p1==p2&&p2==p3)
+		{
+			System.out.println("singal");
+		}
+		
+	}
+
+}

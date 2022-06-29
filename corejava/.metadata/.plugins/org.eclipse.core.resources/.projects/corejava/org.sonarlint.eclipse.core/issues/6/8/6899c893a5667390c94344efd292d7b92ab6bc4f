@@ -1,0 +1,25 @@
+
+p	java:S106N"9Replace this use of System.out or System.err by a logger.(œªˆÜøÿÿÿÿ8ËŒÚ´™0HßRMAJORZ
+CODE_SMELL
+„
+java:S1192<"IDefine a constant instead of duplicating this literal "Accepted" 3 times.(Ÿ†é™şÿÿÿÿ8ËŒÚ´™0HäRCRITICALZ
+CODE_SMELL
+Š
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ×¦ĞûÿÿÿÿHÓRMINORZ
+CODE_SMELL
+p	java:S106F"9Replace this use of System.out or System.err by a logger.(Å•ÿÿÿÿÿ8‰Â­´™0H×RMAJORZ
+CODE_SMELL
+€
+java:S1192="JDefine a constant instead of duplicating this literal "Completed" 3 times.(¡†Ù‹8ËŒÚ´™0HàRCRITICALZ
+CODE_SMELL
+m
+java:S4973I"<Strings and Boxed types should be compared using "equals()".(İğğìûÿÿÿÿ8ËŒÚ´™0HèRMAJORZBUG
+m
+java:S4973I"<Strings and Boxed types should be compared using "equals()".(İğğìûÿÿÿÿ8ËŒÚ´™0HíRMAJORZBUG
+m
+java:S4973L"<Strings and Boxed types should be compared using "equals()".(Ö•…—ÿÿÿÿÿ8ËŒÚ´™0HòRMAJORZBUG
+|
+java:S3973E"GUse indentation to denote the code conditionally executed by this "if".(¼åì[8¾‹°´™0HÙRCRITICALZ
+CODE_SMELL
+k	java:S106H"9Replace this use of System.out or System.err by a logger.(ËÌì8õ¸¨¤š0HÛRMAJORZ
+CODE_SMELL

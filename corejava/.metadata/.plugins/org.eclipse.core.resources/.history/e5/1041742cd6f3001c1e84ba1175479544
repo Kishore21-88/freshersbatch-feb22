@@ -1,0 +1,22 @@
+package corejava.assignment.lamda;
+
+interface Operations{
+abstract	int BasicOperations(int a,int b);
+
+	
+}
+
+
+public class BasicOperations  implements Operations{
+
+	public static void main(String[] args) {
+		
+		
+		Operations s=(a,b)->{a+b};
+		s.BasicOperations(10, 12);
+		
+	}
+
+	
+
+}

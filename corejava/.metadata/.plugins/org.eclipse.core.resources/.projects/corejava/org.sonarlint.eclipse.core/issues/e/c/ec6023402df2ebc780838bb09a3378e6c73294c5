@@ -1,0 +1,8 @@
+
+i	java:S106)"9Replace this use of System.out or System.err by a logger.(Ø¦ˆŞúÿÿÿÿH#RMAJORZ
+CODE_SMELL
+…
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¼ñ“HŸ#RMINORZ
+CODE_SMELL
+	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß†ııÿÿÿÿH¡#RMINORZ
+CODE_SMELL

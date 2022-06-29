@@ -1,0 +1,22 @@
+
+…	java:S116"URename this field "Department" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”îÿÿÿÿÿH¢#RMINORZ
+CODE_SMELL
+Š
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(£›ÅıÿÿÿÿH£#RMINORZ
+CODE_SMELL
+…
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÓÊ¸H¥#RMINORZ
+CODE_SMELL
+}	java:S101w"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÎòÌûÿÿÿÿH§#RMINORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¼¡¨òH¨#RMAJORZ
+CODE_SMELL
+j
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8–‰»£™0H©#RMINORZ
+CODE_SMELL
+d	java:S106$"9Replace this use of System.out or System.err by a logger.(ŞãÅÁH«#RMAJORZ
+CODE_SMELL
+d	java:S106<"9Replace this use of System.out or System.err by a logger.(¼œ…¢H¬#RMAJORZ
+CODE_SMELL
+}	java:S101h"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤³úûÿÿÿÿH­#RMINORZ
+CODE_SMELL

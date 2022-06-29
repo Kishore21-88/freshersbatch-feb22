@@ -1,0 +1,10 @@
+package corejava.assignment.annotation;
+
+public class CustomAnnotation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

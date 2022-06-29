@@ -1,0 +1,24 @@
+
+Š	java:S127>"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ö”¯²š0Hı RMAJORZ
+CODE_SMELL
+ˆ
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Çµí‘8¡Í²š0Hˆ!RCRITICALZ
+CODE_SMELL
+k	java:S106L"9Replace this use of System.out or System.err by a logger.(Ñ”æ†8É®Å²š0H„!RMAJORZ
+CODE_SMELL
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(¬öêÙúÿÿÿÿ8ö”¯²š0H‚!RMAJORZ
+CODE_SMELL
+^
+java:S1481A"&Remove this unused "j" local variable.(ÎÊúÔşÿÿÿÿ8¡Í²š0H!RMINORZ
+CODE_SMELL
+p	java:S106G"9Replace this use of System.out or System.err by a logger.(¥“„ûÿÿÿÿ8îó°š0Hƒ!RMAJORZ
+CODE_SMELL
+Š	java:S127H"XRefactor the code in order to not assign to this loop counter from within the loop body.(¯ÀÚè8¡Í²š0H‘!RMAJORZ
+CODE_SMELL
+k	java:S106:"9Replace this use of System.out or System.err by a logger.(À½–ª8°ùƒ°š0Hô RMAJORZ
+CODE_SMELL
+p	java:S106."9Replace this use of System.out or System.err by a logger.(¬öêÙúÿÿÿÿ8°ùƒ°š0Hó RMAJORZ
+CODE_SMELL
+Y
+java:S14810"&Remove this unused "i" local variable.(ç˜ñí8ö”¯²š0Hû RMINORZ
+CODE_SMELL

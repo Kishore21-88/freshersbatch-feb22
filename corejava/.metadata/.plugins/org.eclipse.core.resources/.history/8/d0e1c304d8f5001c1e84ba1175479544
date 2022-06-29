@@ -1,0 +1,43 @@
+package corejava.assignment.collection;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Product {
+	int id;
+	String Name;
+
+	public Product(int id, String name) {
+		super();
+		this.id = id;
+		Name = name;
+	}
+
+	public static void main(String[] args) {
+		HashSet<Product> al = new HashSet<Product>();
+		al.add(new Product(1,"kiki"));
+		al.add(new Product(1,"kiki"));
+		al.add(new Product(1,"kiki"));
+		al.add(new Product(4,"kiki"));
+		al.add(new Product(5,"kiki"));
+		al.add(new Product(6,"kiki"));
+		al.add(new Product(7,"kiki"));
+		al.add(new Product(8,"kiki"));
+		al.add(new Product(9,"kiki"));
+		al.add(new Product(10,"kiki"));
+	
+		
+	for (Product product : al) {
+		System.out.println(product);
+	}
+		
+
+	}
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", Name=" + Name + "]";
+	}
+	
+
+}

@@ -1,0 +1,66 @@
+package corejava.assignment.java11;
+
+import java.util.Scanner;
+
+public class Item {
+	private double price;
+	private double total;
+	
+
+	public Item() {
+		super();
+		
+	}
+	
+
+	public Item(double price, double total) {
+		super();
+		this.price = price;
+		this.total = total;
+	}
+
+
+
+
+	public double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+
+	public double getTotal() {
+		return total;
+	}
+
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Item i=new Item();
+		
+		System.out.println("1:Insert New Price,2:view Purchase Total,3:Exit");
+		int n=sc.nextInt();
+		if(n==1)
+		{
+			double p=sc.nextDouble();
+			i.setPrice(p);
+			i.getPrice();
+		}
+		double total=0;
+		if(n==2)
+		{
+			total+=i.getPrice();
+			System.out.println(total);
+		}
+	}
+
+}

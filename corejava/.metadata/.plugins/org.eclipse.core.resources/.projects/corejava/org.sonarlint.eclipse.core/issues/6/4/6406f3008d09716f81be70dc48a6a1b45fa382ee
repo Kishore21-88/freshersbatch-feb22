@@ -1,0 +1,24 @@
+
+h
+java:S1610"5Convert the abstract class "shape" into an interface.(¤†ÿÂ8“İ¡øš0Hš%RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”ªã†úÿÿÿÿ8“İ¡øš0H›%RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(»®„§ÿÿÿÿÿ8“İ¡øš0Hœ%RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ş¦ÿÿÿÿÿ8“İ¡øš0H%RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ë¹ªïøÿÿÿÿ8“İ¡øš0H%RMAJORZ
+CODE_SMELL
+€	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¹Á†8“İ¡øš0HŸ%RMINORZ
+CODE_SMELL
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤†ÿÂ8“İ¡øš0H %RMINORZ
+CODE_SMELL
+„	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ŞëÉùÿÿÿÿ8“İ¡øš0H¡%RMINORZ
+CODE_SMELL
+„	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚­“üüÿÿÿÿ8“İ¡øš0H¢%RMINORZ
+CODE_SMELL
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«ÉŸü8“İ¡øš0H£%RMINORZ
+CODE_SMELL
+„	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸§º«ÿÿÿÿÿ8“İ¡øš0H¤%RMINORZ
+CODE_SMELL

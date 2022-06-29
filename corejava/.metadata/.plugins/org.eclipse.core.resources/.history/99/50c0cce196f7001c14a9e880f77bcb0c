@@ -1,0 +1,5 @@
+package corejava.assignment.annotation;
+
+public class TestAnnotation {
+
+}

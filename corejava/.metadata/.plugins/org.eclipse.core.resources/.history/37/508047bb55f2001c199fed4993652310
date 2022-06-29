@@ -1,0 +1,27 @@
+package intermediate;
+
+public class Manager extends Employee {
+
+	public Manager(String name, double salary) {
+		super(name, salary);
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	double totalSalary(double salary)
+	{
+		return salary;
+		
+	}
+
+	static double incentive=10;
+
+	public static void main(String[] args) {
+		Employee e1=new Manager("kiki", 345678);
+		Employee e2=new Manager("kiki", 345678);
+		Employee e3=new Manager("kiki", 345678);
+		Employee e4=new Manager("kiki", 345678);
+		double total = e1.salary+e2.salary+e3.salary+e4.salary;
+		System.out.println(total*incentive);
+	}
+
+}

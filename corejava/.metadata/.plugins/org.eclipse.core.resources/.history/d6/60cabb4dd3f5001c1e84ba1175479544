@@ -1,0 +1,52 @@
+package corejava.assignment.collection;
+
+import java.util.Map.Entry;
+import java.util.TreeMap;
+
+public class Contact {
+	 long PhoneNumber;
+	String Name;
+	String Email;
+	
+	
+
+//	public Contact(long phoneNumber, String name, String email) {
+//	
+//		PhoneNumber = phoneNumber;
+//		Name = name;
+//		Email = email;
+//	}
+
+
+	public static void main(String[] args) {
+		Contact c=new Contact();
+		c.PhoneNumber=740655884;
+		c.Name="kiki";
+		c.Email="kiki21@me.com";
+		
+		Contact c1=new Contact();
+		c1.PhoneNumber=99450055;
+		c1.Name="ki";
+		c1.Email="ki21@me.com";
+		TreeMap<Long,Contact> tm =new TreeMap<Long, Contact>();
+		tm.put(c.PhoneNumber, c);
+		tm.put(c1.PhoneNumber, c1);
+		for(Entry<Long,Contact> ct:tm.entrySet())
+		System.out.println(ct);
+		
+
+	}
+
+
+	@Override
+	public String toString() {
+		return "Contact [PhoneNumber=" + PhoneNumber +",Name=" + Name + ", Email=" + Email + "]";
+	}
+	
+
+}
+
+
+class EnumGender{
+	enum Gender{Male,Female};
+}

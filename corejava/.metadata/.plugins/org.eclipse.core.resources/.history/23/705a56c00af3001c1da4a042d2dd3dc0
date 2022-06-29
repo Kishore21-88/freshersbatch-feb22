@@ -1,0 +1,81 @@
+package collection;
+
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+ 
+public class Employee {
+	int id;
+	String name;
+	long salary;
+	String Department;
+
+	
+
+	public Employee() {
+		super();
+	}
+	public Employee(int id, String name, long salary, String department) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		Department = department;
+	}
+	static void displayAll(Set<Employee> hs)
+	{
+		for (Iterator iterator = hs.iterator(); iterator.hasNext();) {
+			Employee employee = (Employee) iterator.next();
+			Comparator<Employee> comp1=(Employee obj1,Employee obj2)->{
+				return Long.compare(obj1.salary,obj2.salary);
+				};
+			System.out.println(employee);
+		}
+		
+
+	}
+
+
+	public static void main(String[] args) {
+	Set<Employee> hs =new TreeSet<Employee>(new aComparator());
+
+	
+	hs.add(new Employee(1, "kiki", 98765421,"M.E"));
+	hs.add(new Employee(2, "chai", 98765421,"CIV"));
+	hs.add(new Employee(3, "raks", 98765421,"M.E"));
+	hs.add(new Employee(4, "venu", 98765421,"M.E"));
+	
+
+			
+
+			displayAll(hs);
+
+	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", Department=" + Department + "]";
+	}
+
+}
+//class aComparator implements Comparator<Employee>{
+//
+//	@Override
+//	public int compare(Employee o1,Employee o2) {
+//		
+//		return o1.id.compareTo(o2.id);
+//	}
+//	
+//	class bComparator implements Comparator<Employee>{
+//
+//		@Override
+//		public int compare(Employee o1,Employee o2) {
+//			
+//			return o1.name.compareTo(o2.name);
+//		}
+//
+//		
+//	}
+	
+	
+	

@@ -1,0 +1,25 @@
+package intermediate;
+
+public class Employee {
+	String name;
+	double salary;
+	private double t1=1000;
+	public Employee(String name, double salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+		
+	}
+	 void totalSalary(double salary)
+	{
+		
+		
+	}
+	public double getT1() {
+		return t1;
+	}
+	
+	
+	
+
+}

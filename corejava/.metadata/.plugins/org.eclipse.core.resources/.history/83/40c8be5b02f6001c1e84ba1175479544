@@ -1,0 +1,25 @@
+package corejava.assignment.lamda;
+
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+public class FirstLetterString {
+
+	public static void main(String[] args) {
+		StringBuilder b=new StringBuilder();
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("Kishore");
+		a.add("Rakshath");
+		a.add("kiki");
+		a.add("raks");
+//		for (int i = 0; i < args.length; i++) {
+		Consumer<String> u= st->System.out.println(b.append(st.charAt(0)));
+		
+	
+			u.accept(a.get(0));
+			b.append(u);
+//		}
+		System.out.println(b);
+	}
+
+}

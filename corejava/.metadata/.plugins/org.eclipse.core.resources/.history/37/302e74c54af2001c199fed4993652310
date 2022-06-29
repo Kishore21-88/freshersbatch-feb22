@@ -1,0 +1,27 @@
+package dataStructure;
+
+import java.util.Scanner;
+
+public class Student {
+
+	public static void main(String[] args) {
+	
+		for (int i = 1; i <= 3; i++) {
+//			int total=0,averg=0;
+			System.out.println("Student " + i + "marks");
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Subject A");
+			int a = sc.nextInt();
+			System.out.println(" Subject B");
+			int b = sc.nextInt();
+			System.out.println("Subject C");
+			int c = sc.nextInt();
+			System.out.println("Student " + i + " totalmarks = "+a+b+c+" averagemarks = "+a+b+c/3);
+			
+			
+		}
+		
+
+	}
+
+}

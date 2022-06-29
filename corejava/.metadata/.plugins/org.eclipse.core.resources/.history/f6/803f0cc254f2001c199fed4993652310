@@ -1,0 +1,11 @@
+package intermediate;
+
+public class Manager {
+	double incentive;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

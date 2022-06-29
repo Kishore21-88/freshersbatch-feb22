@@ -1,0 +1,11 @@
+package intermediate;
+
+public class Labour extends Employee{
+	public Labour(String name, double salary) {
+		super(name, salary);
+		
+	}
+	static float overTime=20;
+	
+
+}

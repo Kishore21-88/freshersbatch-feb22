@@ -1,0 +1,27 @@
+package intermediate;
+
+public class Labour extends Employee{
+	public Labour(String name, double salary) {
+		super(name, salary);
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	 void totalSalary(double salary)
+	{
+		double t1=getT2()+salary;
+		System.out.println(t1);
+	}
+
+	static float overTime=20;
+	public static void main(String[] args) {
+		Employee e1=new Labour("kiki", 345);
+		Employee e2=new Labour("kiki", 345);
+		Employee e3=new Labour("kiki", 345);
+		Employee e4=new Labour("kiki", 345);
+		double total = e1.salary+overTime+e2.salary+overTime+e3.salary+overTime+e4.salary+overTime;
+		
+		e1.totalSalary(total);
+
+	}
+
+}

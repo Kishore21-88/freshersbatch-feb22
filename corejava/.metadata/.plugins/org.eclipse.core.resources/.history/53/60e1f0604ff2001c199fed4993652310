@@ -1,0 +1,16 @@
+package intermediate;
+final class Parent{
+	int a=10;
+	int b=0;
+	
+}
+
+public class Singletone extends Parent 
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

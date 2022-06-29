@@ -1,0 +1,25 @@
+
+i
+java:S1612"6Replace this lambda with method reference 's::append'.(£±à…8ƒƒ·¦š0HâRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8ƒƒ·¦š0HäRMAJORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ì²Ò¦š0H‰ RMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(²í a8…©¦¦š0H¸RMAJORZ
+CODE_SMELL
+s	java:S125 "<This block of commented-out lines of code should be removed.(ÃÀ£úÿÿÿÿ8ƒƒ·¦š0HåRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ƒï£’ýÿÿÿÿ8œ‘½¦š0H RMAJORZ
+CODE_SMELL
+s	java:S125#"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8èá²¦š0HÏRMAJORZ
+CODE_SMELL
+ƒ
+java:S1192"HDefine a constant instead of duplicating this literal "Kishore" 4 times.(»Æ’”ûÿÿÿÿ8ç‰ž¦š0H¦RCRITICALZ
+CODE_SMELL
+‹
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÙêŽr8ç‰ž¦š0H¤RMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ÉÛˆÈ8æÿ·¦š0HñRMAJORZ
+CODE_SMELL

@@ -1,0 +1,35 @@
+package corejava.assignment.lamda;
+
+import java.util.ArrayList;
+
+public class ThreadNumber extends Thread {
+	@Override
+	 public void run(){
+	        ArrayList<Integer> numbers = new ArrayList<>();
+	        numbers.add(5);
+	        numbers.add(85);
+	        numbers.add(67);
+	        numbers.add(189);
+	        numbers.add(54);
+	        numbers.add(93);
+	        numbers.add(29);
+	        numbers.add(305);
+	        //This will print the array list using a consumer function
+	        for (int i = 0; i < 5; i++) {
+				System.out.println(i);
+			}
+	System.out.println(numbers);
+	        numbers.forEach(k -> System.out.println(k));
+	    }
+	public static void main(String[] args) {
+		ThreadNumber t=new ThreadNumber();
+		t.run();
+		Thread.currentThread();
+		t.start();
+		  
+		
+
+	}
+
+}
+

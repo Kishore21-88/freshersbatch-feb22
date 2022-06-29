@@ -1,0 +1,15 @@
+package corejava.assignment.java11;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpRequest;
+
+public class Http {
+	public static void main(String[] args) throws URISyntaxException {
+		HttpRequest request = HttpRequest.newBuilder()
+				  .uri(new URI("https://httpbin.org/get"))
+				  .GET()
+				  .build();
+		System.out.println(request.headers()+" "+request.bodyPublisher()+" " );
+	}
+}

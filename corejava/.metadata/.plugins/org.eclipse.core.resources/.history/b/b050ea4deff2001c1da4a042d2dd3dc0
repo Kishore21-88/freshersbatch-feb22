@@ -1,0 +1,17 @@
+package intermediate;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Employee e1=new Labour("kiki", 345);
+		Employee e2=new Labour("kiki", 345);
+		Employee e3=new Labour("kiki", 345);
+		Employee e4=new Labour("kiki", 345);
+		Employee e1=new Manager("kiki", 345);
+		Employee e2=new Manager("kiki", 345);
+		Employee e3=new Manager("kiki", 345);
+		Employee e4=new Manager("kiki", 345);
+
+	}
+
+}

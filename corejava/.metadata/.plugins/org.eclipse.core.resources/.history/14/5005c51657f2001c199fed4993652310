@@ -1,0 +1,17 @@
+package intermediate;
+
+public class Labour extends Employee{
+	public Labour(String name, double salary) {
+		super(name, salary);
+		// TODO Auto-generated constructor stub
+	}
+	float overTime;
+	public static void main(String[] args) {
+		Employee e1=new Labour("kiki", 345);
+		Employee e2=new Labour("kiki", 345);
+		Employee e3=new Labour("kiki", 345);
+		Employee e4=new Labour("kiki", 345);
+
+	}
+
+}

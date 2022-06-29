@@ -1,0 +1,38 @@
+package collection;
+
+import java.util.TreeMap;
+
+public class Contact {
+	 long PhoneNumber;
+	String Name;
+	String Email;
+	enum Gender{Male,Female};
+	
+
+	public Contact(long phoneNumber, String name, String email) {
+	
+		PhoneNumber = phoneNumber;
+		Name = name;
+		Email = email;
+	}
+
+
+	public static void main(String[] args) {
+		Contact c=new Contact(740655884,"kiki","kiki21@me.com");
+		Contact c1=new Contact(99450055,"ki","ki21@me.com");
+		TreeMap<Long,Contact> tm =new TreeMap<Long, Contact>();
+		tm.put(c.PhoneNumber, c);
+		tm.put(c1.PhoneNumber, c1);
+		System.out.println(tm);
+		
+
+	}
+
+
+	@Override
+	public String toString() {
+		return "Contact [PhoneNumber=" + PhoneNumber +",Name=" + Name + ", Email=" + Email + "]";
+	}
+	
+
+}

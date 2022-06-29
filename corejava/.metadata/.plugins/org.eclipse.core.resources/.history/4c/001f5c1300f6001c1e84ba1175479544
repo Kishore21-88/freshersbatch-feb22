@@ -1,0 +1,25 @@
+package corejava.assignment.lamda;
+
+import java.util.ArrayList;
+import java.util.function.Predicate;
+
+public class OddLength {
+	public static void main(String[] args) {
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("Kishore");
+		a.add("Rakshath");
+		a.add("kiki");
+		a.add("raks");
+		
+		for (int index = 0; index < args.length; index++) {
+			int l = a.get(index).length();
+			 Predicate<Integer> length =c->c%2!=0;
+			a.remove(length.test(l));
+		}
+		System.out.println(a);
+		
+		
+		
+	}
+
+}
